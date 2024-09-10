@@ -6,7 +6,7 @@ const [Envio, setEnvio]=useState()
 
 const ruta ='https://send-yxvp.onrender.com/api/v1/contact'
 
- const getEnviar = (data)=>{
+ const getEnviar =(data)=>{
     console.log(data)
     axios.post(ruta,data)
     .then(resp => setEnvio(resp.data))
@@ -14,7 +14,7 @@ const ruta ='https://send-yxvp.onrender.com/api/v1/contact'
 
 
  }
-console.log(Envio)
+
 return [Envio, getEnviar]
     
 }

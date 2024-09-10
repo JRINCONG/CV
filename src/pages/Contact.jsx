@@ -26,9 +26,9 @@ const [ Envio, getEnviar] = useFetch()
 
  
  
- const Submit = (data)=>{
+ const Submit = async(data)=>{
  
-  getEnviar(data)
+ await getEnviar(data)
     reset({
    Nombre:"",
    Apellido:"",
