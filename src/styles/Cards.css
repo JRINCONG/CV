@@ -1,0 +1,65 @@
+.Container_Proyect{
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 20px;
+}
+.Proyectos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Container_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(62, 62, 62);
+    width: 260px;
+    height: 400px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+     
+    
+  
+}
+.Container_link{
+    display: flex;
+    color: blue;
+    padding: 5px;
+
+}
+.Container_img{
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.description{
+    display: flex;
+    padding: 2px;
+   text-align: justify;    
+}
+.Container_lenguaje{
+    display: flex;
+    gap:5px;
+    padding: 5px;
+    justify-content: center;
+}
+.container_items{
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(74, 74, 74);
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(155, 155, 155);
+    color: rgb(255, 255, 255);
+}

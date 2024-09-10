@@ -1,0 +1,136 @@
+.Container-Menu{
+   display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+    color: rgba(255, 0, 0, 0.768);   
+}
+
+.Menu_items{
+    display: flex;
+    gap: 20px;
+       
+   
+}
+.Menu_list{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.menu_link{
+    display: flex;
+   align-items: center;
+}
+.menu_link:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+.btn-resume{
+    transition: background-color .2s;
+}
+.btn-resume:hover{
+ background-color: rgb(255, 255, 255)
+
+}
+.btn{
+    background-color: rgb(187, 187, 187);
+    border: none;
+    padding: .75em 1.2em;
+    cursor: pointer;
+}
+.btn-open{
+    display: none;
+}
+.btn-close{
+    font-size: 30px;
+    width: 48px;
+    height: 48px;
+    padding: .1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position:absolute;
+    top: 20px;
+    right: 20px; 
+    display: none;
+      
+
+}
+.btn-close:hover{
+    opacity: .8;
+}
+
+
+
+@media(max-width: 767px){
+    .Menu{
+        flex-direction: column;
+        gap:50px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        bottom: 310px;
+        justify-content: space-evenly;
+        transition: lef .5s;
+        text-align: center;
+        color: red;
+        z-index: 1;
+    }
+
+    .show_menu{
+     left: 0;
+    }
+    .Menu_items{
+         flex-direction: column;
+         justify-content: space-between;
+         background-color: rgb(230, 228, 228);
+         list-style: none;
+         gap:30px;
+         align-items: center;
+      
+       
+    }
+    .menu_link{
+        color: rgba(255, 0, 0, 0.408);
+        font-size: 32px;
+        font-weight: 900px ;
+        text-decoration: none;
+        transition: color .2s;
+
+    }
+    .menu_link:hover{
+        color: rgba(255, 0, 0, 0.952);
+    }
+    .btn-open{
+        display:flex;
+    }
+    .btn-close{
+        display:flex;
+    }
+    .btn-resume{
+        border: 2px solid  #fff;
+        font-weight: 700;
+        width: max-content;
+        display: block;
+        margin: 0 auto;
+        transition: background-color .5s;
+        margin-bottom: 7px;
+        color: red;
+    }
+    .menu_link{
+        color: black;
+    }
+    .btn-resume:hover{
+        background-color: #dfdfdf;
+    
+    }
+}

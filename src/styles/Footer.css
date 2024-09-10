@@ -1,0 +1,15 @@
+.Container_footer{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+
+ justify-content: center;
+ align-items: center;
+   
+}
+.HR{
+    margin-top: 20px;
+    display: inline-block;
+    border-color: rgb(30, 30, 30);
+    width: 80%;
+}

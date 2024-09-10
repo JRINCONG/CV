@@ -1,0 +1,36 @@
+.Container_Abaut{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+ 
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:100px;
+    
+}
+.imagen_abaut{
+ 
+ border-radius: 10px ;
+ padding: 10px;
+
+}
+
+.imagen_abaut img{
+    width: 200px;
+    height: 200px;
+}
+
+.texto_abaut{
+    width: 500px;
+  
+    display: flex;
+    align-items: center;
+   
+}
