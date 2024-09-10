@@ -1,6 +1,6 @@
 import { Abaut } from "./pages/Abaut"
 import { Contact } from "./pages/Contact"
-import { Footer } from "./pages/footer"
+import { Footer } from "./pages/Footer"
 import { Hero } from "./pages/Hero"
 import {Menu} from "./pages/Menu"
 import { Proyect } from "./pages/Proyect"
