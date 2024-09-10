@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/Contacto.css'
 import { useForm } from 'react-hook-form'
-import { useFetch } from '../hook/usefetch'
+import { useFetch } from '../hook/useFetch'
+
 
 
 
@@ -11,8 +12,7 @@ export const Contact = () => {
  const {  register, handleSubmit, reset } = useForm()
 
  const [Estado, setEstado] = useState(false)
-
- const [Envio, getEnviar ]=useFetch()
+const [ Envio, getEnviar] = useFetch() 
 
  useEffect(()=>{
   if(Envio){
