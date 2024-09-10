@@ -5,7 +5,7 @@ export const Cards = ({Card, array}) => {
 
 
   return (
-    <div className='Container_card shadow-2xl'>
+    <div className='Container_card'>
 
         <div className='Container_img'>
             <img src={Card.img}/>

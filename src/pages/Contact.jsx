@@ -60,15 +60,15 @@ const [ Envio, getEnviar] = useFetch()
       <form className='contact shadow-2xl' onSubmit={handleSubmit(Submit)}>
         <div className='info_input'>
         <label htmlFor="Nombre">Nombre:</label>
-        <input {...register('Nombre')} type='text' placeholder='Nombre' name='Nombre'/>
+        <input {...register('Nombre')} type='text' placeholder='Nombre' name='Nombre' required/>
         </div>
         <div className='info_input'>
         <label htmlFor="Apellidos">Apellidos:</label>
-        <input {...register('Apellido')}type='text' placeholder='Apellidos' name='Apellido'/>
+        <input {...register('Apellido')}type='text' placeholder='Apellidos' name='Apellido'required/>
         </div>
         <div className='info_input'>
         <label htmlFor="empresa">Empresa:</label>
-        <input  {...register('Empresa')} type='text' placeholder='Nombre de la empresa'name='Empresa'/>
+        <input  {...register('Empresa')} type='text' placeholder='Nombre de la empresa'name='Empresa' required/>
         </div>
         <div className='info_input'>
         <label htmlFor="empresa">Telefono:</label>
@@ -76,7 +76,7 @@ const [ Envio, getEnviar] = useFetch()
         </div>
         <div className='info_input'>
         <label htmlFor="texto">Email: </label>
-        <input  {...register('Email')} type='email' placeholder='Email' name='Email'/>
+        <input  {...register('Email')} type='email' placeholder='Email' name='Email' required/>
         </div>
         <div className='info_input'>
         <label htmlFor="mensage">Nota:</label>

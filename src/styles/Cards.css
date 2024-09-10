@@ -5,6 +5,8 @@
     justify-content: space-evenly;
     margin-top: 50px;
     padding: 20px;
+    background-color: rgb(237, 237, 237);
+    box-shadow: black;
 }
 .Proyectos{
     display: flex;

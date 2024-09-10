@@ -13,7 +13,7 @@ function App() {
   return (
  
       <div className="container">
-        <Menu/>
+     <Menu/>
      <Hero/>
      <Abaut/>
      <Skill/>
