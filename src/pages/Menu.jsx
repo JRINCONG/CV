@@ -1,17 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Menu.css'
 
 
 
 export const Menu = () => {
 
-   const menu=document.querySelector('.Menu')
-const Abrir = ()=>{
-   document.querySelector('.Menu').classList.add('show_menu')
 
+   const [isValue, setisValue] = useState(false)
+
+   
+const Abrir = ()=>{
+   setisValue(true)
 }
 const Cerrar = ()=>{
-   document.querySelector('.Menu').classList.remove('show_menu')
+   setisValue()
 }
 
 
@@ -21,7 +23,7 @@ const Cerrar = ()=>{
   return (
     <>
     <div className='Container-Menu'>
-      <div className='Menu shadow-2xl'>
+      <div className={`Menu ${isValue ?"show_menu":""}`}>
       <button className='btn btn-close' onClick={Cerrar}>
       <box-icon name='x'></box-icon>
       </button>
