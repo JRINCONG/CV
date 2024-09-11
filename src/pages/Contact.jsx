@@ -84,7 +84,7 @@ const [ Envio, getEnviar] = useFetch()
         </div>
        <button className="boton" type='submi'>Enviar</button>
        {
-        (Estado)&& <h2>Mensaje enviado Correctamente</h2>
+        (Estado)&& <h2 className='msg'>Gracias por Contactarme..!!</h2>
        
        }
         

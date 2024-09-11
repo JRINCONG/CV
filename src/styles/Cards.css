@@ -2,51 +2,66 @@
     display: flex;
     gap:5px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-top: 50px;
-    padding: 20px;
-    background-color: rgb(237, 237, 237);
-    box-shadow: black;
+    font-family:'Finlandica', 'sans-serif' ;
+    background-color: #FAF7F7;
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.Containers_Cards{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+
 }
 .Proyectos{
     display: flex;
-    justify-content: center;
+    color: #E4652E;
     padding: 10px;
 }
 
-.Container_card{
+.Card{
     display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(62, 62, 62);
-    width: 260px;
-    height: 400px;
-    box-sizing: border-box;
     justify-content: space-evenly;
+    
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
     border-radius: 10px;
     flex-wrap: wrap;
+    align-items: center;
      
     
   
 }
 .Container_link{
     display: flex;
-    color: blue;
     padding: 5px;
+    font-size: 15px;
 
 }
+.Container_link:hover{
+    color: blue;
+}
 .Container_img{
-    width: 100%;
+    width: 250px;
     object-fit: contain;
     padding: 5px;
+    gap:10px;
 }
-.Title{
+.Title h3{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
+    gap:10px;
+    
+ 
+    
 }
 .description{
     display: flex;
-    padding: 2px;
+    width: 200px;
    text-align: justify;    
 }
 .Container_lenguaje{
@@ -54,14 +69,20 @@
     gap:5px;
     padding: 5px;
     justify-content: center;
+    align-items: center;
 }
 .container_items{
     display: flex;
-    width: 100%;
-    border: 1px solid rgb(74, 74, 74);
+    
+    
     padding: 5px;
-    border-radius: 10px;
+  
     justify-content: center;
-    background-color: rgb(155, 155, 155);
-    color: rgb(255, 255, 255);
+    
+    color: #E4652E;
+}
+.Container_info{
+    display: flex;
+    flex-direction: column;
+   
 }

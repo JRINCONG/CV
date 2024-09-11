@@ -1,45 +1,71 @@
 .container-skill{
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
+    display:flex;
    
-
+    
+    flex-wrap: wrap;
+    background-color: #FAF7F7;;
+    margin-top: 10px;
+  justify-content: space-around;
+    padding: 40px;
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
 
 }
 h1{
     font-size: 30px;
 }
 .logos img{
-    max-width: 200px;
-    display: flex;
+    max-width: 100px;
+   
+    flex-wrap: wrap;
     object-fit:contain;
-    padding: 10px;
+   
 }
 .logos{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap:10px;
     
-}
+    display:flex;
+    flex-wrap: wrap;
+ 
+    justify-content: center;
+    object-fit:contain;
+    width: 400px;
 
+   
+}
+.Containe_items_img{
+   display: flex;
+
+   width: 100%;
+   justify-content: space-evenly;
+ 
+    
+
+}
 .logos div{
     display: flex;
-    border: 1px solid rgb(73, 72, 72);
-    background-color: rgb(233, 233, 233);
+  
+   
     border-radius: 15px;
-    align-items: center;
-    flex-wrap: wrap;
+   
+
   
 }
 .habilidades{
- width: 100%;
+flex-direction: column;
  display: flex;
- background-color: rgb(218, 218, 218);
+ font-family:'Fredoka', sans-serif;
+ flex-wrap: wrap;
+ max-width:50% ;
+}
 
+.habilidades h1{
+    display: flex;
+    font-family:'Finlandica', 'sans-serif' ;     
+    color: #E4652E;
+   
 
+}
+ul li{
+    display:flex;
+    gap: 5px;
+    
 }

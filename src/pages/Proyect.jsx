@@ -11,11 +11,12 @@ export const Proyect = () => {
 
   return (
     <>
-    <div className='Proyectos'>
-    <h1><b>// </b>Proyectos</h1>
-    </div>
-    <div className='Container_Proyect shadow-2xl'> 
-         
+  
+    <div className='Container_Proyect'> 
+    
+    <h1 className='Proyectos'>// Proyectos</h1>
+ 
+     <div className='Containers_Cards'>
         {
             Proyectos?.map((card)=>(      
                 <Cards
@@ -26,7 +27,7 @@ export const Proyect = () => {
             ))           
         }       
     </div>
-
+    </div>
   </>
   )
 }

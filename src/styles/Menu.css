@@ -1,6 +1,6 @@
 .Container-Menu{
    display: flex;
-    background-color: grey;
+    background-color: #323F6F;
     align-items: center;
     justify-content: space-between;
 }
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;  
     width: 100%;
-    color: rgba(255, 0, 0, 0.768);   
+    color: #fff;   
 }
 
 .Menu_items{
