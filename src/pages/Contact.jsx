@@ -45,19 +45,20 @@ const [ Envio, getEnviar] = useFetch()
 
   return (
     <>
-    <h1><b>//</b> Contacto</h1>
-    <div className='Container_contacto shadow-2xl'>
+    
+    <div className='Container_contacto'>
 
 
     <div className='info_contacto'>
-      <h2>JAIRO RINCÓN GUTIÉRREZ</h2>
-      <p>Cel: +57- 3126346336</p>
-      <p>rincon303@hotmail.com</p>
-      <p>Colombia-Cartagena</p><br/>
+    <h1>// Contacto</h1>
+      <p className='info_info'><box-icon type='solid' name='square'></box-icon>JAIRO RINCÓN GUTIÉRREZ</p>
+      <p className='info_info'><box-icon type='solid' name='square'></box-icon>Cel: +57- 3126346336</p>
+      <p className='info_info'><box-icon type='solid' name='square'></box-icon>rincon303@hotmail.com</p>
+      <p className='info_info'><box-icon type='solid' name='square'></box-icon>Colombia-Cartagena</p><br/>
       
     </div>
     <div className='Container_form'>      
-      <form className='contact shadow-2xl' onSubmit={handleSubmit(Submit)}>
+      <form className='contact' onSubmit={handleSubmit(Submit)}>
         <div className='info_input'>
         <label htmlFor="Nombre">Nombre:</label>
         <input {...register('Nombre')} type='text' placeholder='Nombre' name='Nombre' required/>

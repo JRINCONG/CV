@@ -30,17 +30,19 @@
 }
 .menu_link:hover{
     border-bottom: 1px solid rgb(255, 255, 255);
+    color: #E4652E;
 
 }
 .btn-resume{
     transition: background-color .2s;
 }
 .btn-resume:hover{
- background-color: rgb(255, 255, 255)
+    color: #E4652E;
+
 
 }
 .btn{
-    background-color: rgb(187, 187, 187);
+    
     border: none;
     padding: .75em 1.2em;
     cursor: pointer;
@@ -93,7 +95,7 @@
     .Menu_items{
          flex-direction: column;
          justify-content: space-between;
-         background-color: rgb(230, 228, 228);
+         background-color: #323F6F;
          list-style: none;
          gap:20px;
          align-items: center;
@@ -109,7 +111,7 @@
 
     }
     .menu_link:hover{
-        color: rgba(255, 0, 0, 0.952);
+        color: #E4652E;
     }
     .btn-open{
         display:flex;
@@ -125,13 +127,13 @@
         margin: 0 auto;
         transition: background-color .5s;
         margin-bottom: 7px;
-        color: red;
+        color: #ffffff;
     }
     .menu_link{
-        color: black;
+        color: #fff;
     }
     .btn-resume:hover{
-        background-color: #dfdfdf;
+        background-color: #ffffff;
     
     }
 }

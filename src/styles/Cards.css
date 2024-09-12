@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
 .Container_Proyect{
     display: flex;
     gap:5px;
     flex-wrap: wrap;
-    margin-top: 50px;
-    font-family:'Finlandica', 'sans-serif' ;
+    margin-top: 10px;
+   
     background-color: #FAF7F7;
     box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
     
@@ -20,6 +21,7 @@
     display: flex;
     color: #E4652E;
     padding: 10px;
+    font-family: "Finlandica", sans-serif;
 }
 
 .Card{
@@ -55,13 +57,14 @@
     display: flex;
     align-items: center;
     gap:10px;
+    font-family: "Finlandica", sans-serif;
     
  
     
 }
 .description{
     display: flex;
-    width: 200px;
+    width: 300px;
    text-align: justify;    
 }
 .Container_lenguaje{
@@ -84,5 +87,8 @@
 .Container_info{
     display: flex;
     flex-direction: column;
+    color: #2f2929;
+    font-family:'Finlandica', 'sans-serif' ;
+
    
 }
