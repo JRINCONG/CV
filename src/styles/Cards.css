@@ -52,6 +52,10 @@
     object-fit: contain;
     padding: 5px;
     gap:10px;
+    transition: box-shadow .4s;
+}
+.Container_img:hover{
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
 }
 .Title h3{
     display: flex;

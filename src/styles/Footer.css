@@ -11,6 +11,13 @@
 .HR{
     margin-top: 20px;
     display: inline-block;
-    border-color: rgb(30, 30, 30);
+    border-color: rgb(138, 11, 11);
     width: 80%;
+    text-align:center;
+
+}
+p{
+    display: flex;
+    text-align: center;
+    
 }
