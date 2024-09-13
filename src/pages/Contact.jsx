@@ -46,7 +46,7 @@ const [ Envio, getEnviar] = useFetch()
   return (
     <>
     
-    <div className='Container_contacto'>
+    <div className='Container_contacto' id='contacto'>
 
 
     <div className='info_contacto'>

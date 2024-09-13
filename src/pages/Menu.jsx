@@ -30,23 +30,23 @@ const Cerrar = ()=>{
       <lu className='Menu_items'>
      
         <li className='Menu_list'>
-           <a href='#' className='menu_link'>Inicio</a>
+           <a href='/' className='menu_link'>Inicio</a>
         </li>
         <li className='Menu_list'>
-           <a href='#' className='menu_link'>Acerca de mí</a>
+           <a href='#About' className='menu_link'>Acerca de mí</a>
         </li>
         <li className='Menu_list'>
-           <a href='#' className='menu_link'>Habilidades</a>
+           <a href='#habilidad' className='menu_link'>Habilidades</a>
         </li>
         <li className='Menu_list'>
-           <a href='#' className='menu_link'>Proyectos</a>
+           <a href='#proyectos' className='menu_link'>Proyectos</a>
         </li>
         <li className='Menu_list'>
-           <a href='#' className='menu_link'>Contacto</a>
+           <a href='#contacto' className='menu_link'>Contacto</a>
         </li>        
            
       
-      <a href='#' className='btn btn-resume'>Descargar C.V.</a>
+      <a href='https://drive.google.com/file/d/1kwLzb3leaSdEnwroiPxyAy_6VB7nDZBs/view?usp=sharing' className='btn btn-resume'>Descargar C.V.</a>
       </lu>
       </div>
 

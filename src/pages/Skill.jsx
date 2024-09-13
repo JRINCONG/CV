@@ -9,7 +9,7 @@ export const Skill = () => {
       
 
     
-        <div className='habilidades'>
+        <div className='habilidades' id='habilidad'>
         <h1>// Mis Habilidades</h1>
         <ul>
           

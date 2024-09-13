@@ -16,7 +16,7 @@ export const Proyect = () => {
     
     <h1 className='Proyectos'>// Proyectos</h1>
  
-     <div className='Containers_Cards'>
+     <div className='Containers_Cards'id='proyectos'>
         {
             Proyectos?.map((card)=>(      
                 <Cards
